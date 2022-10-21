@@ -8,6 +8,7 @@
 </head>
 <body>
 <h1>eeeeeeeeeeeee</h1>
-<h3>${name}</h3>
+<h3>name : ${name}</h3>
+<h3>age : ${age}</h3>
 </body>
 </html>

@@ -20,8 +20,10 @@ public class JavaToJspController {
 		
 		User user = new User();
 		user.setName("hello");
+		user.setAge(30);
 		
 		model.addAttribute("name", user.getName());
+		model.addAttribute("age", user.getAge());
 		
 		return "e";
 	}
